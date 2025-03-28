@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/DraggableDialog.css";
 
 const DraggableDialog = () => {
-  const [position, setPosition] = useState({ x: 1100, y: 320 });
+  const [position, setPosition] = useState({ x: 1000, y: 330 });
   const [dragging, setDragging] = useState(false);
   const [rel, setRel] = useState({ x: 0, y: 0 });
 
@@ -50,7 +50,7 @@ const DraggableDialog = () => {
 
   return (
     <div
-      className={`draggable-dialog ${dragging ? "dragging" : ""}`}
+      className="draggable-dialog"
       onMouseDown={onMouseDown}
       onMouseMove={onMouseMove}
       onMouseUp={onMouseUp}

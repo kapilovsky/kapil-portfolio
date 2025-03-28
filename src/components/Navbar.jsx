@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="eye">
         <img src={eye} alt="eye" />
       </div>
-      <div>
+      <div className="time">
         <Time />
         <img src={signal} alt="signal" />
         <img src={run} alt="run" />

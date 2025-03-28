@@ -7,6 +7,7 @@ nav {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 
 nav > div {
@@ -45,4 +46,36 @@ nav > div:nth-child(3) > img {
 .links a:hover {
   color: #f3ff90;
   background-color: #2b4d12;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .links {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  nav > div:nth-child(2) {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  nav > div:nth-child(3) {
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  nav > div:nth-child(3) > img {
+    margin-right: 0;
+    margin-left: 10px;
+  }
 }

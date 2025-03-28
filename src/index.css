@@ -55,7 +55,7 @@ body::before {
 
 .roles p {
   font-family: "fira";
-  font-size: 1.5vw;
+  font-size: 1.4em;
   font-weight: 600;
   color: #2b4d12;
   margin-bottom: 10px;
@@ -73,11 +73,10 @@ body::before {
 
 .title {
   font-family: "up";
-  font-size: 5.5vw;
+  font-size: 5.5em;
   color: #2b4d12;
 }
 
-/* styles.css */
 @keyframes flicker {
   0% {
     opacity: 1;
@@ -116,4 +115,22 @@ body::before {
 
 .flicker {
   animation: flicker 0.2s infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .roles {
+    margin-top: 50px;
+  }
+  .roles p {
+    font-size: 1.2em;
+    color: #2b4d12;
+    margin-bottom: 15px;
+    text-align: center;
+    text-wrap: balance;
+  }
 }
