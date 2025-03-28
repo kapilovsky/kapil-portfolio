@@ -131,4 +131,7 @@ hr {
   .banner {
     padding: 4px 16px;
   }
+  .retro-dialog {
+    max-height: 800px;
+  }
 }

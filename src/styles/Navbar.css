@@ -50,7 +50,8 @@ nav > div:nth-child(3) > img {
 
 @media screen and (max-width: 768px) {
   nav {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 10px;
   }
@@ -65,13 +66,14 @@ nav > div:nth-child(3) > img {
   nav > div:nth-child(2) {
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 2px;
   }
 
   nav > div:nth-child(3) {
     justify-content: space-between;
     width: 78%;
     margin-top: 10px;
+    display: none;
   }
 
   nav > div:nth-child(3) > img {
