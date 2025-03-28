@@ -80,6 +80,7 @@ body {
   font-family: "up";
   font-size: 5.5em;
   color: #2b4d12;
+  line-height: normal;
 }
 
 @keyframes flicker {

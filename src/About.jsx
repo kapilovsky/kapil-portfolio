@@ -12,13 +12,13 @@ const About = () => {
         <div className="retro-dialog-container">
           <div className="retro-dialog">
             <div className="dialog-frame">
-              <div className="dialog-header">
+              <div className="retro-dialog-header">
                 <span className="dialog-title">About Me</span>
                 <div className="dialog-controls">
                   <span className="control-button close">✕</span>
                 </div>
               </div>
-              <div className="dialog-content">
+              <div className="retro-dialog-content">
                 <div className="flex justify-between mb-4 bg-[#1b1b1b] text-[#f9f9f9] banner">
                   <p>Last Updated</p>
                   <p>30th March {new Date().getFullYear()}</p>

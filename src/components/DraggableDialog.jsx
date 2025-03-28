@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/DraggableDialog.css";
 
 const DraggableDialog = () => {
-  const [position, setPosition] = useState({ x: 1000, y: 330 });
+  const [position, setPosition] = useState({ x: 1000, y: 300 });
   const [dragging, setDragging] = useState(false);
   const [rel, setRel] = useState({ x: 0, y: 0 });
 
