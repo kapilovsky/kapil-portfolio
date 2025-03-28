@@ -4,6 +4,12 @@
 }
 footer {
   color: #2b4d12;
-  font-family: "fira";
+  font-family: "Chivo Mono";
   margin-right: 14px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+  }
 }

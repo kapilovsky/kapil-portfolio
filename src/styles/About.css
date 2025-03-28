@@ -1,0 +1,108 @@
+@font-face {
+  font-family: cinema;
+  src: url(../assets/CinemaRegular.ttf);
+}
+
+@font-face {
+  font-family: redaction;
+  src: url(../assets/Redaction35-BWXjw.otf);
+}
+
+@font-face {
+  font-family: redaction-italic;
+  src: url(../assets/Redaction35Italic-rgDrB.otf);
+}
+
+.retro-dialog {
+  width: 100%;
+  height: 100%;
+  max-height: 700px;
+  max-width: 1500px;
+  transform-origin: center center;
+  transform: perspective(1400px) rotateX(2deg) translateY(-10px) scale(0.9);
+  transition: all 0.3s ease;
+  box-shadow: 0 20px 30px rgba(182, 2, 218, 0.6);
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+
+  /* border: 4px solid #f3ff90; */
+}
+
+.retro-dialog:hover {
+  transform: perspective(1400px) rotateX(3deg) translateY(-15px) scale(0.9);
+}
+
+.dialog-content {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Chivo Mono;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background-color: #292929;
+  margin: -1px 0px;
+}
+
+.dialog-frame {
+  backdrop-filter: blur(15px);
+  height: 100%;
+  width: 100%;
+  color: #1b1b1b;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3ff90;
+  padding: 0px 10px 4px 10px;
+  position: relative;
+}
+
+.dialog-title {
+  color: #1b1b1b;
+  font-family: blue;
+}
+
+.banner {
+  padding: 4px 16px;
+  font-family: arame mono;
+  font-size: 0.6em;
+}
+
+.heading {
+  font-family: cinema;
+  user-select: none;
+}
+
+.redaction-35 {
+  font-family: redaction;
+}
+
+.redaction-35-italic {
+  font-family: redaction-italic;
+}
+
+.dialog-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.control-button {
+  color: #1b1b1b;
+  cursor: pointer;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-button:hover {
+  background-color: #3a3a3a;
+}

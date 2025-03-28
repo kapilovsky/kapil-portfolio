@@ -13,8 +13,6 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -25,7 +23,12 @@ body {
   background-color: black;
 }
 
-body::before {
+::selection {
+  background-color: #1b1b1b;
+  color: #f9f9f9;
+}
+
+.hero::before {
   content: "";
   position: fixed;
   top: 0;
@@ -54,11 +57,13 @@ body::before {
 }
 
 .roles p {
-  font-family: "fira";
+  font-family: "Chivo Mono";
   font-size: 1.4em;
-  font-weight: 600;
+  font-weight: 700;
   color: #2b4d12;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
 
 .bg {
@@ -127,9 +132,9 @@ body::before {
     margin-top: 50px;
   }
   .roles p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #2b4d12;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: center;
     text-wrap: balance;
   }
