@@ -25,12 +25,29 @@
   overflow-y: scroll;
   background-color: #f9f9f9;
   border-radius: 5px;
-
   /* border: 4px solid #f3ff90; */
 }
 
 .retro-dialog:hover {
   transform: perspective(1400px) rotateX(3deg) translateY(-15px) scale(0.9);
+}
+
+.retro-dialog::-webkit-scrollbar {
+  width: 18px;
+}
+
+.retro-dialog::-webkit-scrollbar-track {
+  background: #f3ff90;
+  border-radius: 5px;
+}
+
+.retro-dialog::-webkit-scrollbar-thumb {
+  background: rgba(182, 2, 218, 0.6);
+  border: 4px solid #f3ff90;
+}
+
+.retro-dialog::-webkit-scrollbar-thumb:hover {
+  background: rgba(182, 2, 218, 0.8);
 }
 
 .dialog-content {
@@ -105,4 +122,13 @@ hr {
 
 .control-button:hover {
   background-color: #3a3a3a;
+}
+
+@media screen and (max-width: 768px) {
+  .dialog-content {
+    max-width: 100%;
+  }
+  .banner {
+    padding: 4px 16px;
+  }
 }

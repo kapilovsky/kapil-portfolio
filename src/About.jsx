@@ -23,13 +23,13 @@ const About = () => {
                   <p>Last Updated</p>
                   <p>30th March {new Date().getFullYear()}</p>
                 </div>
-                <h1 className="text-center text-5xl heading mb-10 ">
+                <h1 className="text-center sm:text-5xl text-4xl heading mb-10 ">
                   System Logs <br /> Personal Edition
                 </h1>
-                <h2 className="redaction-35 text-center text-3xl mb-10">
+                <h2 className="redaction-35 text-center sm:text-3xl mb-10">
                   The Unwritten Pages
                 </h2>
-                <h4 className="redaction-35-italic text-center text-xl mb-10">
+                <h4 className="redaction-35-italic text-center sm:text-xl text-sm mb-10">
                   This is an invitation—not just to read, but to participate. To
                   see beyond the immediate, to challenge the status quo, and to
                   recognize that the most exciting opportunities are often the
@@ -41,7 +41,7 @@ const About = () => {
 
                 <hr />
                 <hr />
-                <h4 className="redaction-35 text-center text-2xl">
+                <h4 className="redaction-35 text-center sm:text-2xl text-lg">
                   Work Experience
                 </h4>
                 <hr />
@@ -49,14 +49,14 @@ const About = () => {
 
                 <div className="exp-card">
                   <div className="exp-card-header">
-                    <h2 className="redaction-35 font-bold text-2xl">
+                    <h2 className="redaction-35 font-bold sm:text-2xl">
                       Full Stack Developer Intern
                     </h2>
-                    <p className="redaction-35-italic text-xl">
+                    <p className="redaction-35-italic sm:text-xl text-lg">
                       The Swago &bull; Sep'24 - Feb'25
                     </p>
                   </div>
-                  <div className="exp-card-content">
+                  <div className="exp-card-content text-sm">
                     <p>
                       Currently working on a project that involves building a
                       web application using React and Node.js.
@@ -64,7 +64,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <p>
+                <p className="text-sm">
                   Hello! I'm a developer passionate about creating unique
                   digital experiences.
                 </p>
