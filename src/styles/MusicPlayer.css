@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "fira";
+  src: url(../assets/FiraCodeNerdFont-Bold.ttf);
+}
+.lofi-music-player {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.lofi-music-player p {
+  font-family: "fira";
+  color: #f3ff90;
+  margin-right: 10px;
+}
+
+.play-pause-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 50px;
+  height: 50px;
+}
+
+.play-pause-btn img {
+  width: 60%;
+  height: 60%;
+}

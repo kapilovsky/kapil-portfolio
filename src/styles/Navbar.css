@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "bs";
+  src: url(../assets/Bluescreen.ttf);
+}
+nav {
+  background-color: #f3ff90;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+nav > div {
+  flex: 1;
+}
+
+.links {
+  margin-left: 20px;
+}
+
+/* target 2nd div */
+nav > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* target 3rd div */
+nav > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav > div:nth-child(3) > img {
+  margin-right: 12px;
+}
+
+.links a {
+  font-family: "bs";
+  text-decoration: none;
+  padding: 8px;
+  color: #2b4d12;
+  transition: all 0.2s ease;
+}
+
+.links a:hover {
+  color: #f3ff90;
+  background-color: #2b4d12;
+}

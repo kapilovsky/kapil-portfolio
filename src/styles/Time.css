@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "fira";
+  src: url(../assets/FiraCodeNerdFont-Bold.ttf);
+}
+footer {
+  color: #2b4d12;
+  font-family: "fira";
+  margin-right: 14px;
+}
